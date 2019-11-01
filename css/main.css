@@ -19,12 +19,31 @@ p, .lead {
 	font-family: 'NanumSquare';
 }
 
-h1 {
+.h1 {
+  font-family: 'NanumSquare';
   font-size: 100px;
   line-height: 80px;
   letter-spacing: -1px;
-  color: #ffffff;
   font-weight: 900;
+}
+
+.test {
+  display: inline-block;
+  margin: 50px auto 0;
+  padding: 10px 25px;
+  font-family: 'a산들바람';
+  line-height: 80px;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.test span {
+  background: linear-gradient(to right, rgb(0, 186, 219), rgb(0, 238, 99));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
